@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: url('desktop-wallpaper.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.weather-container {
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+}
+.weather-container h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 120px;
+    margin-left: 280px;
+}
+
+.location {
+    position: absolute;
+    margin-bottom: 20px;
+    margin-top: 180px;
+    margin-left: 240px;
+}
+.location input{
+    height: 35px;
+    width: 250px;
+    background:transparent;
+    color: #fff;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: 600;
+    border: none;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+.location input::placeholder{
+    color: #c2baba;
+}
+.location input:focus{
+    outline: none;
+}
+.location button{
+    height: 40px;
+    width: 150px;
+    margin-top: 80px;
+    margin-left: 50px;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    background: rgb(203, 12, 12);
+    color: #fff;
+    cursor: pointer;
+}
+.location button:hover{
+    background: rgb(232, 54, 54);
+}
+.weather-info {
+    height: 200px;
+    width: 200px;
+    background: transparent;
+    border: 1px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.weather-info h2{
+    color: #000;
+}
+.weather-info p{
+    color: #fff;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
